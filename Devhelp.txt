@@ -1,0 +1,10 @@
+1. Create next app
+2. Create model folder 
+3. install mongoose
+4. Create User.ts i.e Schema you want to create here we are creating user based on this project.
+5. add all interfaces and set Schema variables
+6. Create schema folder
+7. install zod (Used for schema management)
+8. create signUpSchema.ts verifySchema.ts signinSchema.ts acceptMessagesSchema.ts messageSchema.ts files
+10.add what's gonna be the input of this 
+11. 
