@@ -7,4 +7,7 @@
 7. install zod (Used for schema management)
 8. create signUpSchema.ts verifySchema.ts signinSchema.ts acceptMessagesSchema.ts messageSchema.ts files
 10.add what's gonna be the input of this 
-11. 
+
+11. connecting Database mongoose
+12. created lib folder which has dbConnect.ts file in which database is being connected
+13. created .env
