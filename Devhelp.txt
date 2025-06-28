@@ -11,3 +11,14 @@
 11. connecting Database mongoose
 12. created lib folder which has dbConnect.ts file in which database is being connected
 13. created .env
+14. create workflow/logic for login on paper 
+15. Use resend emails for login
+16. Create resend.ts and helpers/sendVarificationEmail.ts 
+17. Create emails folder in root folder to keep its UI using react-emails.
+18. install react-emails
+19. created ApiResponse.ts in types folder to define types of data coming in ApiResponse
+20. Use resend emails docs to take sendVarificationEmail.ts code and edit it according to ur parameters and needs.
+
+ Email verification is completed now.
+
+ 
