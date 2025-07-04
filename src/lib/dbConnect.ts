@@ -1,5 +1,36 @@
 import mongoose from "mongoose";
 
+
+
+
+// const mongoose = require('mongoose')
+// require('dotenv').config()
+
+const url = process.env.MONGODB_URI;
+// console.log(url);
+
+if (!url) {
+    throw new Error("MONGODB_URI environment variable is not defined");
+}
+
+// const connectionParams={
+//     useNewUrlParser: true,
+//     // useCreateIndex: false,
+//     useUnifiedTopology: true 
+// }
+mongoose.connect(url)
+    .then( () => {
+        console.log('Connected to database ')
+    })
+    .catch( (err) => {
+        console.error(`Error connecting to the database. \n${err}`);
+    })
+
+
+
+
+
+
 type ConnectionObect = {
     isConnected?: number;
 

@@ -18,7 +18,14 @@
 18. install react-emails
 19. created ApiResponse.ts in types folder to define types of data coming in ApiResponse
 20. Use resend emails docs to take sendVarificationEmail.ts code and edit it according to ur parameters and needs.
+21. used NextAuth.js for callbacks and providers
+22. handled providers in options.ts and then wrote logic of signin in route.ts
+23. created middleware to handle routes using NextAuth.js 
+24. created lite frontend in (auth)/signin file using sesionProvider in NextAuth.js 
+25. Created AuthProvider to wrape content in layout
+26. create all secret keys and test it on thunderclient
 
+Provider and callbacks are important for this
  Email verification is completed now.
 
  
